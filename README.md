@@ -2,7 +2,9 @@
 This repository contains all the implementations done for my thesis "Quantization Algorithms for Neural Networks: A comparative analysis with other reduction techniques".  
 
 ## Quantization
-The original quantization method can be found in this repository: [quantized_neural_networks]((https://github.com/elybrand/quantized_neural_networks)). Some modifications were done to it, so you can just download this one if you are interested in trying my implementation on your machine. 
+The original quantization method can be found in this repository: 
+* [quantized_neural_networks]((https://github.com/elybrand/)quantized_neural_networks)).
+Some modifications were done to it, so you can just download this one if you are interested in trying my implementation on your machine. 
 
 ## Lumping
 The lumping algorithm was implemented from this paper:
