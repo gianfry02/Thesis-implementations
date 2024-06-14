@@ -36,13 +36,6 @@ N = {
         3: {6: 'ReLU'}
     }
 }
-
-k, S_prime, W_prime, b_prime, A_prime = lump_neural_network(N)
-print(k)
-print(S_prime)
-print(W_prime)
-print(b_prime)
-print(A_prime)
 ```
 ```
 Output: 
