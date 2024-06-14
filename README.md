@@ -7,13 +7,13 @@ The original quantization method can be found in this repository:
 
 To run the training and quantization scripts, follow the steps in that repository using the modified version of the files found in this repository. 
 
-Also, if you want to quantize a PyTorch model, you'll first need to convert it to a .h5 keras model using the `convertor.ibynb` script since the quantization implmentation in [quantized_neural_networks](https://github.com/elybrand/quantized_neural_networks) is done in tensorflow.
+Also, if you want to quantize a PyTorch model, you'll first need to convert it to a .h5 keras model using the `convertor.ibynb` script since the quantization implmentation in [quantized_neural_networks](https://github.com/elybrand/quantized_neural_networks) is done in TensorFlow.
 
 ## Lumping
 The lumping algorithm was implemented from this paper:
 *  [Compressing Neural Networks via Formal Methods](https://www.sciencedirect.com/science/article/pii/S0893608024003356).
 
-A "toy" example can be found below:
+A "toy" example of how the algorithm works can be found below:
 
 Input:
 ```
