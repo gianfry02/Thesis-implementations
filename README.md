@@ -4,6 +4,7 @@ This repository contains all the implementations done for my thesis "Quantizatio
 ## Quantization
 The original quantization method can be found in this repository: 
 * [quantized_neural_networks](https://github.com/elybrand/quantized_neural_networks).
+
 Some modifications were done to it, so you can just download this one if you are interested in trying my implementation on your machine. 
 
 ## Lumping
