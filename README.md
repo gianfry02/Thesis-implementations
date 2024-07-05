@@ -10,8 +10,8 @@ To run the training and quantization scripts, follow the steps in that repositor
 Also, if you want to quantize a PyTorch model, you'll first need to 
 
 * Convert it to a .txt file using the `pth_to_txt.py` script since the quantization implmentation in [quantized_neural_networks](https://github.com/elybrand/quantized_neural_networks) is done in TensorFlow.
-* Input the .txt file into the training script to get a TensorFlow model with the correct architecture.
-* Run the quantization script to get a quantized .h5 Keras model that can now be lumped using the TensorLumping.py script.
+* Input the .txt file into the `modified_train_mnist_mlp.py` script to get a TensorFlow model with the correct architecture.
+* Run the `modified_quantized_network` script to get a quantized .h5 Keras model that can now be lumped using the `LumpingAlgorithm.py` script.
 
 ## Lumping
 The lumping algorithm was implemented from this paper:
